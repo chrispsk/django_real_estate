@@ -19,7 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: keep the secret key used in production secret! Was changed in ONLINE!!!!!!!!
 SECRET_KEY = 'e!=-b)f&p131cy5+kn^85wit_4=6_6gr+-h7r=*a(hm8r&($n1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -76,7 +76,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'real_estate.wsgi.application'
 
 
-# Database
+# Database WAS CHANGED IN ONLINE !!!!!!!!!!!!!!!!!!!!!!!!
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
@@ -141,14 +141,14 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger', #danger for bootstrap
 }
 
-#Email config
+#Email config WAS FILLED IN ONLINE !!!!!!!!!!!!!!!!
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER=''
 EMAIL_HOST_PASSWORD=''
 EMAIL_USE_TLS=True
 
-# PT. ONLINE
+# PT. ONLINE local_settings.py !!!!!!!!!!!!!!!!!!!!!
 try:
     from .local_settings import *
 except ImportError:
