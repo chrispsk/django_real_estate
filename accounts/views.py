@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib import messages, auth
 from django.contrib.auth.models import User
 from contacts.models import Contacts
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 def register(request):
     if request.method == 'POST':
@@ -62,6 +63,7 @@ def logout(request):
         messages.success(request, 'You are now logged out!')
         return redirect('index')
 
+@login_required
 def dashboard(request):
     user_contacts = Contacts.objects.order_by('-contact_date').filter(user_id=request.user.id)
     context = {
