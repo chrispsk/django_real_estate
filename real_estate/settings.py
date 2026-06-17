@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret! Was changed in ONLINE!!!!!!!!
-SECRET_KEY = 'e!=-b)f&p131cy5+kn^85wit_4=6_6gr+-h7r=*a(hm8r&($n1'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -83,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.postgresql',
         'NAME':'realestate',
-        'USER':'postgres',
-        'PASSWORD':'root',
+        'USER':'', # postgres
+        'PASSWORD':'', # root
         'HOST': 'localhost'
     }
 }
