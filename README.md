@@ -3,6 +3,19 @@
 A real estate web application built with Django.
 
 The project allows users to browse property listings, view listing details, search for properties, contact realtors, register an account, log in, and view their inquiries through a user dashboard.
+## Features
+
+* Property listings
+* Listing detail pages
+* Property search
+* Realtor profiles
+* Contact/inquiry form
+* User registration
+* User login/logout
+* User dashboard
+* Django admin panel
+* PostgreSQL database support
+* Media file support for listing images
 
 ## Screenshots
 
@@ -22,19 +35,6 @@ The project allows users to browse property listings, view listing details, sear
 
 ![User Dashboard](screenshots/real_estate_account.png)
 
-## Features
-
-* Property listings
-* Listing detail pages
-* Property search
-* Realtor profiles
-* Contact/inquiry form
-* User registration
-* User login/logout
-* User dashboard
-* Django admin panel
-* PostgreSQL database support
-* Media file support for listing images
 
 ## Tech Stack
 
