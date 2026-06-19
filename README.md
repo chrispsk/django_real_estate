@@ -16,7 +16,7 @@ The project allows users to browse property listings, view listing details, sear
 
 ### User Dashboard
 
-![User Dashboard](screenshots/real-estate-account.png)
+![User Dashboard](screenshots/real_estate_account.png)
 
 ## Features
 
